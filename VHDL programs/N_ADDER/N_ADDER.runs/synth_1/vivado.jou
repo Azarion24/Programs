@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Oct 26 18:44:14 2024
+# Process ID: 7260
+# Current directory: C:/Users/mateu/Desktop/PUL_Projects/N_ADDER/N_ADDER.runs/synth_1
+# Command line: vivado.exe -log SUMNB.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SUMNB.tcl
+# Log file: C:/Users/mateu/Desktop/PUL_Projects/N_ADDER/N_ADDER.runs/synth_1/SUMNB.vds
+# Journal file: C:/Users/mateu/Desktop/PUL_Projects/N_ADDER/N_ADDER.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-P3RDA5C
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12450H
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:8
+# CPU Logical cores :12
+# Host memory       :16890 MB
+# Swap memory       :4026 MB
+# Total Virtual     :20917 MB
+# Available Virtual :5329 MB
+#-----------------------------------------------------------
+source SUMNB.tcl -notrace

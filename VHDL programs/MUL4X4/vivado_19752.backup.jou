@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Oct 26 23:05:43 2024
+# Process ID: 19752
+# Current directory: C:/Users/mateu/Desktop/PUL_Projects/MUL4X4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16504 C:\Users\mateu\Desktop\PUL_Projects\MUL4X4\MUL4X4.xpr
+# Log file: C:/Users/mateu/Desktop/PUL_Projects/MUL4X4/vivado.log
+# Journal file: C:/Users/mateu/Desktop/PUL_Projects/MUL4X4\vivado.jou
+# Running On        :DESKTOP-P3RDA5C
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12450H
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:8
+# CPU Logical cores :12
+# Host memory       :16890 MB
+# Swap memory       :4026 MB
+# Total Virtual     :20917 MB
+# Available Virtual :11911 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mateu/Desktop/PUL_Projects/MUL4X4/MUL4X4.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+source Test.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+source Test.tcl
+close_sim

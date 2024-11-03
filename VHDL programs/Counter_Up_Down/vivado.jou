@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Sat Nov  2 12:53:57 2024
+# Process ID: 13132
+# Current directory: C:/Users/mateu/Desktop/PUL_Projects/Counter_Up_Down
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14560 C:\Users\mateu\Desktop\PUL_Projects\Counter_Up_Down\Counter_Up_Down.xpr
+# Log file: C:/Users/mateu/Desktop/PUL_Projects/Counter_Up_Down/vivado.log
+# Journal file: C:/Users/mateu/Desktop/PUL_Projects/Counter_Up_Down\vivado.jou
+# Running On        :DESKTOP-P3RDA5C
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12450H
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:8
+# CPU Logical cores :12
+# Host memory       :16890 MB
+# Swap memory       :3221 MB
+# Total Virtual     :20111 MB
+# Available Virtual :9940 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mateu/Desktop/PUL_Projects/Counter_Up_Down/Counter_Up_Down.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+source Test.tcl
+relaunch_sim
+close_sim

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Generator_pierscieniowy.srcs/sources_1/new/BRAMKA.vhd" \
+"../../../../Generator_pierscieniowy.srcs/sources_1/new/UKLAD.vhd" \
+"../../../../Generator_pierscieniowy.srcs/sim_1/new/Test.vhd" \
+
+# Do not sort compile order
+nosort
