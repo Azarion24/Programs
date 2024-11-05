@@ -7,3 +7,5 @@ This repository is built step by step in the tutorial.
 To coś dla Github
 
 Dodane na potrzeby PULL
+
+Teraz zmieniam cos na pc
